@@ -1,0 +1,12 @@
+# Catatan Kesalahan Program
+
+| Berkas         | Jenis kesalahan                                                                               | Pesan yang muncul                                                                      | Cara mengetahuinya                                                                                                                           |
+| -------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| k1_sintaks.cpp | Kesalahan sintaks (kesalahan dalam aturan penulisan kode C++).                                | tempCodeRunnerFile.cpp:5:5: error: expected ',' or ';' before 'std'                    | Diketahui berdasarkan pesan error dari compiler yang menghentikan proses build karena terdapat simbol atau sintaks yang tidak sesuai.        |
+| k2_nama.cpp    | Kesalahan nama/deklarasi (variabel belum dikenali atau penulisan nama variabel tidak sesuai). | k2_nama.cpp:8:31: error: 'Nilai' was not declared in this scope; did you mean 'nilai'? | Diketahui melalui pesan compiler yang menunjukkan bahwa variabel `Nilai` tidak ditemukan atau penulisannya berbeda dengan deklarasi `nilai`. |
+| k3_runtime.cpp | Kesalahan runtime (kesalahan yang muncul ketika program sedang dijalankan).                   | Jumlah mahasiswa: 0                                                                    | Program dapat di-compile dengan baik, tetapi mengalami crash atau berhenti ketika dijalankan setelah memasukkan angka 0.                     |
+| k4_logika.cpp  | Kesalahan logika (program dapat berjalan, tetapi hasil yang diberikan tidak sesuai).          | Rata-rata: 81                                                                          | Diketahui setelah membandingkan output program, yaitu 81, dengan hasil perhitungan manual yang seharusnya 81,67.                             |
+
+# Pendapat / Refleksi
+
+Menurut saya, kesalahan logika merupakan salah satu kesalahan yang cukup sulit ditemukan. Penyebabnya adalah program masih bisa di-build dan dijalankan secara normal tanpa menampilkan pesan error atau peringatan, meskipun hasil yang diberikan sebenarnya tidak benar. Oleh karena itu, kesalahan seperti ini dapat diketahui dengan melakukan pengujian dan mengecek hasil perhitungan secara lebih teliti.
