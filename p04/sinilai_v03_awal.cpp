@@ -38,19 +38,53 @@ int main() {
 
     // TODO 1: deklarasikan string huruf_mutu, lalu isi dengan if-else bertingkat sesuai tabel di atas.
     //         Mulai dari batas tertinggi (80) turun ke bawah. Pikirkan kasus batas: 79.9, 80, 59.9, 60.
+    string huruf_mutu;
+
+if (nilai_akhir >= 80) {
+    huruf_mutu = "A";
+} else if (nilai_akhir >= 70) {
+    huruf_mutu = "B";
+} else if (nilai_akhir >= 60) {
+    huruf_mutu = "C";
+} else if (nilai_akhir >= 50) {
+    huruf_mutu = "D";
+} else {
+    huruf_mutu = "E";
+}
 
     // TODO 2: deklarasikan bool lulus. Aturan SiNilai: lulus bila huruf mutu minimal C
     //         (dengan kata lain, nilai_akhir >= 60).
+    bool lulus = (nilai_akhir >= 60);
 
     // TODO 3: deklarasikan string keterangan. Isi dengan switch pada huruf pertama huruf_mutu
     //         (huruf_mutu[0] bertipe char): 'A' Sangat baik, 'B' Baik, 'C' Cukup,
     //         'D' Kurang, 'E' Sangat kurang. Ingat break.
+string keterangan;
 
+switch (huruf_mutu[0]) {
+    case 'A':
+        keterangan = "Sangat baik";
+        break;
+    case 'B':
+        keterangan = "Baik";
+        break;
+    case 'C':
+        keterangan = "Cukup";
+        break;
+    case 'D':
+        keterangan = "Kurang";
+        break;
+    case 'E':
+        keterangan = "Sangat kurang";
+        break;
+}
     cout << "\n--- Kartu Nilai Mahasiswa ---\n";
     cout << "Nama        : " << nama << "\n";
     cout << "NPM         : " << npm << "\n";
     cout << "Nilai akhir : " << nilai_akhir << "\n";
     // TODO 4: tampilkan Huruf mutu, Keterangan, dan Status (Lulus / Belum lulus) sejajar.
-
+cout << "Huruf Mutu  : " << huruf_mutu << "\n";
+cout << "Keterangan  : " << keterangan << "\n";
+cout << "Status      : " << (lulus ? "Lulus" : "Belum lulus") << "\n";
     return 0;
 }
