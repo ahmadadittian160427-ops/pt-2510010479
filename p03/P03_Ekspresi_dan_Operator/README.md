@@ -33,4 +33,8 @@ Folder `p03` di repository `pt-NPM` berisi `sinilai_v02.cpp` dan  `README.md`. L
 
 ## Deklarasi AI
 
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+AI yang digunakan: ChatGPT (GPT-5.6 Luna)
+Prompt:
+“Bantu saya mengerjakan soal latihan mandiri pemrograman C++ pada materi operator aritmatika, pembagian dan sisa pembagian, serta prioritas dan asosiativitas operator. Berikan jawaban beserta contoh kode dan penjelasan singkat.
+Umpan balik AI:
+AI membantu saya memahami cara menyelesaikan soal dan menjelaskan konsep operator dalam C++. Saya menggunakan hasil dari AI sebagai referensi, kemudian menyesuaikannya dengan soal dan memahami kembali hasil programnya.
