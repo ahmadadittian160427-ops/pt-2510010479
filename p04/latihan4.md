@@ -1,0 +1,2 @@
+Sebelumnya, jika menggunakan tipe data bilangan bulat (int), penulisan case bisa berupa case 1:. Setelah menggunakan tipe data karakter (char), penulisannya menjadi case '1':, case '2':, case '3':, dan case 'k':.
+Karakter harus menggunakan tanda petik satu. Selain itu, karakter '1' berbeda dengan angka 1.

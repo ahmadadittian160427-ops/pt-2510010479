@@ -1,0 +1,2 @@
+Tidak selalu. static_cast<int>(79.9) menghasilkan 79 karena bagian desimalnya dipotong. Kemudian, 79 / 10 menghasilkan 7 karena kedua operand bertipe bilangan bulat.
+Jadi, program akan memilih case 7, yaitu Nilai C pada contoh di atas. Jika program sebelumnya menggunakan kondisi nilai >= 70, nilai 79.9 juga masuk ke rentang 70–79. Namun, jika batas nilai atau cara pengelompokannya berbeda, hasilnya bisa berbeda.

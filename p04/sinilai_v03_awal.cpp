@@ -42,8 +42,12 @@ int main() {
 
 if (nilai_akhir >= 80) {
     huruf_mutu = "A";
+} else if (nilai_akhir >= 75) {
+    huruf_mutu = "B+";
 } else if (nilai_akhir >= 70) {
     huruf_mutu = "B";
+} else if (nilai_akhir >= 65) {
+    huruf_mutu = "C+";
 } else if (nilai_akhir >= 60) {
     huruf_mutu = "C";
 } else if (nilai_akhir >= 50) {
