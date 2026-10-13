@@ -33,4 +33,8 @@ Folder `p04` di repository `pt-NPM` berisi `sinilai_v03.cpp` dan  `README.md`. L
 
 ## Deklarasi AI
 
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+**Deklarasi AI**
+
+**AI yang digunakan:** ChatGPT.
+**Prompt:** Buatkan program C++ untuk menentukan tahun kabisat, menggunakan switch dengan tipe data char, dan mengubah if-else bertingkat menjadi switch.
+**Umpan balik AI:** AI membantu memberikan contoh kode dan penjelasan. Saya memahami penggunaan operator logika, modulo, dan percabangan dalam C++.
