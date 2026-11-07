@@ -1,4 +1,4 @@
-/ Lab porting: pindahkan rerata.py ke C++.
+//Lab porting: pindahkan rerata.py ke C++.
 // Lengkapi tiga bagian bertanda TODO, lalu bangun dengan baseline kelas.
 #include <iomanip>
 #include <iostream>

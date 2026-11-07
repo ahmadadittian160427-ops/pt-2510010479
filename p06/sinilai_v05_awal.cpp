@@ -152,5 +152,5 @@ int main() {
     }
     cout << " " << banyak << "\n";
     }
-    return 0;
+    return 0; 
 }
