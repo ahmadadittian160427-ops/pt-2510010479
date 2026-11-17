@@ -118,4 +118,4 @@ int main() {
     cout << "Rata-rata kelas  : " << total_nilai / jumlah_mahasiswa << endl;
 
     return 0;
-}
+}}
